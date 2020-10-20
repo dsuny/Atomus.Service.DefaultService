@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F2AD8642-6B0E-4D16-8B5A-2B029DCCDE1B}"
+	ProjectSection(SolutionItems) = preProject
+		src\DefaultService.cs = src\DefaultService.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Service.DefaultService(dotNet)", "dotNet\Atomus.Service.DefaultService(dotNet).csproj", "{C0913A0E-6E69-4EDC-8D54-D7CF0D965FAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Service.DefaultService(dotNetCore)", "dotNetCore\Atomus.Service.DefaultService(dotNetCore).csproj", "{1E97C660-E537-44C5-98D4-82B65BD9C26B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Service.DefaultService(dotNetStandard)", "dotNetStandard\Atomus.Service.DefaultService(dotNetStandard).csproj", "{3479A243-A3DE-48E8-AD65-C53B0BE55716}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0913A0E-6E69-4EDC-8D54-D7CF0D965FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0913A0E-6E69-4EDC-8D54-D7CF0D965FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0913A0E-6E69-4EDC-8D54-D7CF0D965FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0913A0E-6E69-4EDC-8D54-D7CF0D965FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E97C660-E537-44C5-98D4-82B65BD9C26B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E97C660-E537-44C5-98D4-82B65BD9C26B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E97C660-E537-44C5-98D4-82B65BD9C26B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E97C660-E537-44C5-98D4-82B65BD9C26B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3479A243-A3DE-48E8-AD65-C53B0BE55716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3479A243-A3DE-48E8-AD65-C53B0BE55716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3479A243-A3DE-48E8-AD65-C53B0BE55716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3479A243-A3DE-48E8-AD65-C53B0BE55716}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2E1FD64-27EB-4478-9DCF-BE299AA6A3DC}
+	EndGlobalSection
+EndGlobal

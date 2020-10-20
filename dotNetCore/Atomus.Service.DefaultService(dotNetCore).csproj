@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Atomus</RootNamespace>
+    <AssemblyName>Atomus.Service.DefaultService</AssemblyName>
+    <Authors>DSUN</Authors>
+    <Company>Atomus</Company>
+    <Product>Atomus Framework in .Net Core 3.1</Product>
+    <Description>Atomus Framework in .Net Core 3.1</Description>
+    <Copyright>Copyright 2020. DSUN all rights reserved.</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>atomus.png</PackageIcon>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Atomus Atomus.Core Service DefaultService AtomusFramework</PackageTags>
+    <PackageReleaseNotes>release 1.0.0</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/dsuny/Atomus.Service.DefaultService</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dsuny/Atomus.Service.DefaultService</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\src\DefaultService.cs" Link="DefaultService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Atomus.Core.dotNetCore" Version="1.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\image\atomus.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
